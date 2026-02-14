@@ -1,0 +1,28 @@
+{
+  "name": "nexora-bot",
+  "version": "1.0.0",
+  "description": "Nexora WhatsApp Bot - Full Featured",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["whatsapp", "bot", "baileys"],
+  "author": "KYNX",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.8",
+    "firebase-admin": "^12.0.0",
+    "pino": "^8.19.0",
+    "qrcode-terminal": "^0.12.0",
+    "axios": "^1.6.7",
+    "cheerio": "^1.0.0-rc.12",
+    "node-fetch": "^3.3.2",
+    "form-data": "^4.0.0",
+    "file-type": "^18.7.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "moment-timezone": "^0.5.45",
+    "chalk": "^5.3.0",
+    "figlet": "^1.7.0"
+  }
+}
